@@ -3,6 +3,10 @@ This site was built using [GitHub Pages](https://pages.github.com/).
 phongchongtoipham.vn
 PhongChongToiPham is a responsive web application focused on raising awareness and facilitating the reporting of criminal activities within communities.
 
+## Mind map
+
+![mindmap](image/mindmap.jpg)
+
 ## Features
 - **Home**: Displays banner advertisements and a list of dangerous criminals.
 - **About Us**: Provides information about the website and its purpose.
