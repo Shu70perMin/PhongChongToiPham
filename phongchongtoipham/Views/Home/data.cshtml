@@ -1,0 +1,151 @@
+﻿
+@{
+    ViewData["Title"] = "data";
+}
+<head>
+    <script src="https://www.gstatic.com/charts/loader.js"></script>
+</head>
+
+ <div id="banner-data">
+            <div class="des">         
+                <h2>Dữ liệu</h2>
+                <h1>PHÒNG CHỐNG TỘI PHẠM</h1>
+                <p>Trang dữ liệu tội phạm cung cấp thông tin chi tiết về các hoạt động phạm tội, bao gồm loại tội phạm, thống kê về tình hình tội phạm và các báo cáo nghiên cứu về xu hướng tội phạm. Điều này giúp cộng đồng và các nhà quản lý công lý hiểu rõ hơn về vấn đề này và đưa ra các biện pháp phòng ngừa và xử lý tội phạm hiệu quả.</p>
+            </div>
+            <div class="background"></div>   
+        </div>
+        <div id="chart">
+            <h2>Thống kê</h2>
+            <h3>Biểu đồ thống kê theo phân loại</h3>     
+                <div id="myChart" style="max-width:1200px; height:500px"></div>
+        </div>
+        <div id="data">
+            <h2>Ngân hàng dữ liệu chống tội phạm</h2>
+            <div class="search-container">
+                <input type="text" placeholder="Search...">
+                <button type="submit">Search</button>
+            </div>
+            <table>
+                <tr>
+                  <th>Ngày cập nhật</th>
+                  <th>Họ và tên</th>
+                  <th>Trạng thái</th>
+                  <th>Mức độ</th>
+                  <th>Hình thức</th>
+                </tr>
+                <tr>
+                  <td>2021-07-14 08:50:31</td>
+                  <td>Trần Văn A</td>
+                  <td>Chưa tóm</td>
+                  <td>Nặng</td>
+                  <td>Trộm cắp</td>
+                </tr>
+                <tr>
+                  <td>2021-07-14 08:50:31</td>
+                  <td>Trần Văn B</td>
+                  <td>Đã tóm</td>
+                  <td>Rất nặng</td>
+                  <td>Giết người</td>
+                </tr>
+                <tr>
+                    <td>2021-07-14 08:50:31</td>
+                    <td>Trần Văn B</td>
+                    <td>Đã tóm</td>
+                    <td>Rất nặng</td>
+                    <td>Giết người</td>
+                  </tr>
+                  <tr>
+                    <td>2021-07-14 08:50:31</td>
+                    <td>Trần Văn B</td>
+                    <td>Đã tóm</td>
+                    <td>Rất nặng</td>
+                    <td>Giết người</td>
+                  </tr>
+                  <tr>
+                    <td>2021-07-14 08:50:31</td>
+                    <td>Trần Văn B</td>
+                    <td>Đã tóm</td>
+                    <td>Rất nặng</td>
+                    <td>Giết người</td>
+                  </tr>
+                  <tr>
+                    <td>2021-07-14 08:50:31</td>
+                    <td>Trần Văn B</td>
+                    <td>Đã tóm</td>
+                    <td>Rất nặng</td>
+                    <td>Giết người</td>
+                  </tr>
+                  <tr>
+                    <td>2021-07-14 08:50:31</td>
+                    <td>Trần Văn B</td>
+                    <td>Đã tóm</td>
+                    <td>Rất nặng</td>
+                    <td>Giết người</td>
+                  </tr>
+                  <tr>
+                    <td>2021-07-14 08:50:31</td>
+                    <td>Trần Văn B</td>
+                    <td>Đã tóm</td>
+                    <td>Rất nặng</td>
+                    <td>Giết người</td>
+                  </tr>
+                  <tr>
+                    <td>2021-07-14 08:50:31</td>
+                    <td>Trần Văn B</td>
+                    <td>Đã tóm</td>
+                    <td>Rất nặng</td>
+                    <td>Giết người</td>
+                  </tr>
+                  <tr>
+                    <td>2021-07-14 08:50:31</td>
+                    <td>Trần Văn B</td>
+                    <td>Đã tóm</td>
+                    <td>Rất nặng</td>
+                    <td>Giết người</td>
+                  </tr>
+              </table>
+              <div class="pagination">
+                <a href="#">Trước</a>
+                <a href="#" class="active">1</a>
+                <a href="#">2</a>
+                <a href="#">3</a>
+                <a href="#">4</a>
+                <a href="#">5</a>
+                <span>...</span>
+                <a href="#">1702</a>
+                <a href="#">Sau</a>
+            </div>
+        </div>
+         <script>
+        google.charts.load('current',{packages:['corechart']});
+        google.charts.setOnLoadCallback(drawChart);
+        function drawChart() {
+
+// Set Data
+const data = google.visualization.arrayToDataTable([
+  ['Tội phạm', 'số người'],
+  ['Hiếp dâm', 55],
+  ['Giết người', 49],
+  ['Cố ý gây thương tích', 44],
+  ['Cướp giật tài sản', 134],
+  ['Trộm cắp tài sản', 98],
+  ['Lừa đảo, chiếm đoạt tài sản', 101],
+  ['Đánh bạc, tổ chức đánh bạc', 189],
+  ['Tội khác', 35],
+
+]);
+
+// Set Options
+const options = {
+  title: 'Tổng số 705 tội phạm',
+  is3D: true,
+};
+
+// Draw
+const chart = new google.visualization.PieChart(document.getElementById('myChart'));
+chart.draw(data, options);
+
+}
+</script>  
+
+

@@ -1,0 +1,48 @@
+﻿
+@{
+    ViewData["Title"] = "Report";
+}
+
+<div id="tocao">
+        <h1>Tố giác tội phạm</h1>
+        <p> <span style="text-decoration: underline; color: red;">Trước khi báo cáo</span>, vui lòng kiểm tra <a href="" style="text-decoration: none; color: blue;">tại đây</a> để biết tội phạm này đã tồn tại trong ngân hàng dữ liệu hay chưa. Nếu đối tượng không nằm trong danh sách của chúng tôi, bạn có thể thực hiện để báo cáo cho chúng tôi. PhongChongToiPham sẽ xét duyệt kỹ lưỡng và đưa ra phán quyết cuối cùng để đánh giá một báo cáo là nguy hiểm hay không. Nếu báo cáo là nguy hiểm và không an toàn cho xã hội, PhongChongToiPham sẽ đưa vào danh sách đen (blacklist) trên cơ sở dữ liệu của chúng tôi. Và dưới đây là form báo của dự án PhongChongToiPham.</p>
+        <form id="crime-report-form">
+            <div class="form-group">
+                <label for="criminal-name">Tên tội phạm</label>
+                <input type="text" id="criminal-name" name="criminal-name" required>
+            </div>
+            <div class="form-group">
+                <label for="crime-type">Loại tội phạm</label>
+                <select id="crime-type" name="crime-type" required>
+                    <option value="">Chọn loại tội phạm</option>
+                    <option value="hiepdam">Hiếp dâm</option>
+                    <option value="gietnguoi">Giết người</option>
+                    <option value="thuongtich">Cố ý gây thương tích</option>
+                    <option value="cuopgiat">Cướp giật tài sản</option>
+                    <option value="tromcap">Trộm cắp tài sản</option>
+                    <option value="luadao">Lừa đảo, chiếm đoạt tài sản</option>
+                    <option value="danhbac">Đánh bạc, tổ chức đánh bạc</option>
+                    <option value="toikhac">Tội khác</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="crime-date">Thời gian phạm tội</label>
+                <input type="date" id="crime-date" name="crime-date" required>
+            </div>
+            <div class="form-group">
+                <label for="crime-location">Địa điểm phạm tội</label>
+                <input type="text" id="crime-location" name="crime-location" required>
+            </div>
+            <div class="form-group">
+                <label for="evidence">Lời khai</label>
+                <textarea id="evidence" name="evidence" rows="4" required></textarea>
+                <div class="file-upload">
+                    <label for="evidence-file">Cung cấp hình ảnh</label>
+                    <input type="file" id="evidence-file" name="evidence-file" accept="image/*">
+                </div>
+            </div>
+            <div class="form-group">
+                <button type="submit">Tố cáo</button>
+            </div>
+        </form>
+    </div>

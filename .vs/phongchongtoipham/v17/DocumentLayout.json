@@ -1,0 +1,207 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ASUS\\OneDrive - Tr\u01B0\u1EDDng \u0110H CNTT - University of Information Technology\\T\u00E0i li\u1EC7u\\My Web Sites\\phongchongtoipham\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C8C53BAB-5648-43F6-AF4B-337F861DB898}|phongchongtoipham\\phongchongtoipham.csproj|c:\\users\\asus\\onedrive - tr\u01B0\u1EDDng \u0111h cntt - university of information technology\\t\u00E0i li\u1EC7u\\my web sites\\phongchongtoipham\\phongchongtoipham\\views\\home\\report.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C8C53BAB-5648-43F6-AF4B-337F861DB898}|phongchongtoipham\\phongchongtoipham.csproj|solutionrelative:phongchongtoipham\\views\\home\\report.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8C53BAB-5648-43F6-AF4B-337F861DB898}|phongchongtoipham\\phongchongtoipham.csproj|C:\\Users\\ASUS\\OneDrive - Tr\u01B0\u1EDDng \u0110H CNTT - University of Information Technology\\T\u00E0i li\u1EC7u\\My Web Sites\\phongchongtoipham\\phongchongtoipham\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8C53BAB-5648-43F6-AF4B-337F861DB898}|phongchongtoipham\\phongchongtoipham.csproj|solutionrelative:phongchongtoipham\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8C53BAB-5648-43F6-AF4B-337F861DB898}|phongchongtoipham\\phongchongtoipham.csproj|c:\\users\\asus\\onedrive - tr\u01B0\u1EDDng \u0111h cntt - university of information technology\\t\u00E0i li\u1EC7u\\my web sites\\phongchongtoipham\\phongchongtoipham\\views\\home\\news.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C8C53BAB-5648-43F6-AF4B-337F861DB898}|phongchongtoipham\\phongchongtoipham.csproj|solutionrelative:phongchongtoipham\\views\\home\\news.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8C53BAB-5648-43F6-AF4B-337F861DB898}|phongchongtoipham\\phongchongtoipham.csproj|c:\\users\\asus\\onedrive - tr\u01B0\u1EDDng \u0111h cntt - university of information technology\\t\u00E0i li\u1EC7u\\my web sites\\phongchongtoipham\\phongchongtoipham\\views\\home\\data.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C8C53BAB-5648-43F6-AF4B-337F861DB898}|phongchongtoipham\\phongchongtoipham.csproj|solutionrelative:phongchongtoipham\\views\\home\\data.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8C53BAB-5648-43F6-AF4B-337F861DB898}|phongchongtoipham\\phongchongtoipham.csproj|c:\\users\\asus\\onedrive - tr\u01B0\u1EDDng \u0111h cntt - university of information technology\\t\u00E0i li\u1EC7u\\my web sites\\phongchongtoipham\\phongchongtoipham\\views\\home\\blog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C8C53BAB-5648-43F6-AF4B-337F861DB898}|phongchongtoipham\\phongchongtoipham.csproj|solutionrelative:phongchongtoipham\\views\\home\\blog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8C53BAB-5648-43F6-AF4B-337F861DB898}|phongchongtoipham\\phongchongtoipham.csproj|c:\\users\\asus\\onedrive - tr\u01B0\u1EDDng \u0111h cntt - university of information technology\\t\u00E0i li\u1EC7u\\my web sites\\phongchongtoipham\\phongchongtoipham\\views\\shared\\_layout1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C8C53BAB-5648-43F6-AF4B-337F861DB898}|phongchongtoipham\\phongchongtoipham.csproj|solutionrelative:phongchongtoipham\\views\\shared\\_layout1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8C53BAB-5648-43F6-AF4B-337F861DB898}|phongchongtoipham\\phongchongtoipham.csproj|c:\\users\\asus\\onedrive - tr\u01B0\u1EDDng \u0111h cntt - university of information technology\\t\u00E0i li\u1EC7u\\my web sites\\phongchongtoipham\\phongchongtoipham\\views\\home\\kienthuc.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C8C53BAB-5648-43F6-AF4B-337F861DB898}|phongchongtoipham\\phongchongtoipham.csproj|solutionrelative:phongchongtoipham\\views\\home\\kienthuc.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8C53BAB-5648-43F6-AF4B-337F861DB898}|phongchongtoipham\\phongchongtoipham.csproj|C:\\Users\\ASUS\\OneDrive - Tr\u01B0\u1EDDng \u0110H CNTT - University of Information Technology\\T\u00E0i li\u1EC7u\\My Web Sites\\phongchongtoipham\\phongchongtoipham\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C8C53BAB-5648-43F6-AF4B-337F861DB898}|phongchongtoipham\\phongchongtoipham.csproj|solutionrelative:phongchongtoipham\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8C53BAB-5648-43F6-AF4B-337F861DB898}|phongchongtoipham\\phongchongtoipham.csproj|C:\\Users\\ASUS\\OneDrive - Tr\u01B0\u1EDDng \u0110H CNTT - University of Information Technology\\T\u00E0i li\u1EC7u\\My Web Sites\\phongchongtoipham\\phongchongtoipham\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C8C53BAB-5648-43F6-AF4B-337F861DB898}|phongchongtoipham\\phongchongtoipham.csproj|solutionrelative:phongchongtoipham\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8C53BAB-5648-43F6-AF4B-337F861DB898}|phongchongtoipham\\phongchongtoipham.csproj|C:\\Users\\ASUS\\OneDrive - Tr\u01B0\u1EDDng \u0110H CNTT - University of Information Technology\\T\u00E0i li\u1EC7u\\My Web Sites\\phongchongtoipham\\phongchongtoipham\\wwwroot\\data.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C8C53BAB-5648-43F6-AF4B-337F861DB898}|phongchongtoipham\\phongchongtoipham.csproj|solutionrelative:phongchongtoipham\\wwwroot\\data.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8C53BAB-5648-43F6-AF4B-337F861DB898}|phongchongtoipham\\phongchongtoipham.csproj|c:\\users\\asus\\onedrive - tr\u01B0\u1EDDng \u0111h cntt - university of information technology\\t\u00E0i li\u1EC7u\\my web sites\\phongchongtoipham\\phongchongtoipham\\views\\home\\kiemtrakienthuc.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C8C53BAB-5648-43F6-AF4B-337F861DB898}|phongchongtoipham\\phongchongtoipham.csproj|solutionrelative:phongchongtoipham\\views\\home\\kiemtrakienthuc.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Report.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive - Tr\u01B0\u1EDDng \u0110H CNTT - University of Information Technology\\T\u00E0i li\u1EC7u\\My Web Sites\\phongchongtoipham\\phongchongtoipham\\Views\\Home\\Report.cshtml",
+              "RelativeDocumentMoniker": "phongchongtoipham\\Views\\Home\\Report.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive - Tr\u01B0\u1EDDng \u0110H CNTT - University of Information Technology\\T\u00E0i li\u1EC7u\\My Web Sites\\phongchongtoipham\\phongchongtoipham\\Views\\Home\\Report.cshtml",
+              "RelativeToolTip": "phongchongtoipham\\Views\\Home\\Report.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC8AAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-31T14:02:50.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "News.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive - Tr\u01B0\u1EDDng \u0110H CNTT - University of Information Technology\\T\u00E0i li\u1EC7u\\My Web Sites\\phongchongtoipham\\phongchongtoipham\\Views\\Home\\News.cshtml",
+              "RelativeDocumentMoniker": "phongchongtoipham\\Views\\Home\\News.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive - Tr\u01B0\u1EDDng \u0110H CNTT - University of Information Technology\\T\u00E0i li\u1EC7u\\My Web Sites\\phongchongtoipham\\phongchongtoipham\\Views\\Home\\News.cshtml",
+              "RelativeToolTip": "phongchongtoipham\\Views\\Home\\News.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-31T14:01:08.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Blog.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive - Tr\u01B0\u1EDDng \u0110H CNTT - University of Information Technology\\T\u00E0i li\u1EC7u\\My Web Sites\\phongchongtoipham\\phongchongtoipham\\Views\\Home\\Blog.cshtml",
+              "RelativeDocumentMoniker": "phongchongtoipham\\Views\\Home\\Blog.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive - Tr\u01B0\u1EDDng \u0110H CNTT - University of Information Technology\\T\u00E0i li\u1EC7u\\My Web Sites\\phongchongtoipham\\phongchongtoipham\\Views\\Home\\Blog.cshtml",
+              "RelativeToolTip": "phongchongtoipham\\Views\\Home\\Blog.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-31T13:58:28.19Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "KiemTraKienThuc.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive - Tr\u01B0\u1EDDng \u0110H CNTT - University of Information Technology\\T\u00E0i li\u1EC7u\\My Web Sites\\phongchongtoipham\\phongchongtoipham\\Views\\Home\\KiemTraKienThuc.cshtml",
+              "RelativeDocumentMoniker": "phongchongtoipham\\Views\\Home\\KiemTraKienThuc.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive - Tr\u01B0\u1EDDng \u0110H CNTT - University of Information Technology\\T\u00E0i li\u1EC7u\\My Web Sites\\phongchongtoipham\\phongchongtoipham\\Views\\Home\\KiemTraKienThuc.cshtml",
+              "RelativeToolTip": "phongchongtoipham\\Views\\Home\\KiemTraKienThuc.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-31T13:44:14.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "data.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive - Tr\u01B0\u1EDDng \u0110H CNTT - University of Information Technology\\T\u00E0i li\u1EC7u\\My Web Sites\\phongchongtoipham\\phongchongtoipham\\Views\\Home\\data.cshtml",
+              "RelativeDocumentMoniker": "phongchongtoipham\\Views\\Home\\data.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive - Tr\u01B0\u1EDDng \u0110H CNTT - University of Information Technology\\T\u00E0i li\u1EC7u\\My Web Sites\\phongchongtoipham\\phongchongtoipham\\Views\\Home\\data.cshtml",
+              "RelativeToolTip": "phongchongtoipham\\Views\\Home\\data.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-31T13:41:32.5Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive - Tr\u01B0\u1EDDng \u0110H CNTT - University of Information Technology\\T\u00E0i li\u1EC7u\\My Web Sites\\phongchongtoipham\\phongchongtoipham\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "phongchongtoipham\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive - Tr\u01B0\u1EDDng \u0110H CNTT - University of Information Technology\\T\u00E0i li\u1EC7u\\My Web Sites\\phongchongtoipham\\phongchongtoipham\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "phongchongtoipham\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAFQAAAAAAAAAAAAAAGoAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-31T10:36:11.878Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "data.html",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive - Tr\u01B0\u1EDDng \u0110H CNTT - University of Information Technology\\T\u00E0i li\u1EC7u\\My Web Sites\\phongchongtoipham\\phongchongtoipham\\wwwroot\\data.html",
+              "RelativeDocumentMoniker": "phongchongtoipham\\wwwroot\\data.html",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive - Tr\u01B0\u1EDDng \u0110H CNTT - University of Information Technology\\T\u00E0i li\u1EC7u\\My Web Sites\\phongchongtoipham\\phongchongtoipham\\wwwroot\\data.html",
+              "RelativeToolTip": "phongchongtoipham\\wwwroot\\data.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-03-31T09:41:15.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout1.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive - Tr\u01B0\u1EDDng \u0110H CNTT - University of Information Technology\\T\u00E0i li\u1EC7u\\My Web Sites\\phongchongtoipham\\phongchongtoipham\\Views\\Shared\\_Layout1.cshtml",
+              "RelativeDocumentMoniker": "phongchongtoipham\\Views\\Shared\\_Layout1.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive - Tr\u01B0\u1EDDng \u0110H CNTT - University of Information Technology\\T\u00E0i li\u1EC7u\\My Web Sites\\phongchongtoipham\\phongchongtoipham\\Views\\Shared\\_Layout1.cshtml",
+              "RelativeToolTip": "phongchongtoipham\\Views\\Shared\\_Layout1.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-31T08:55:06.676Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive - Tr\u01B0\u1EDDng \u0110H CNTT - University of Information Technology\\T\u00E0i li\u1EC7u\\My Web Sites\\phongchongtoipham\\phongchongtoipham\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "phongchongtoipham\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive - Tr\u01B0\u1EDDng \u0110H CNTT - University of Information Technology\\T\u00E0i li\u1EC7u\\My Web Sites\\phongchongtoipham\\phongchongtoipham\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "phongchongtoipham\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAcwCUAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-31T10:35:23.124Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "KienThuc.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive - Tr\u01B0\u1EDDng \u0110H CNTT - University of Information Technology\\T\u00E0i li\u1EC7u\\My Web Sites\\phongchongtoipham\\phongchongtoipham\\Views\\Home\\KienThuc.cshtml",
+              "RelativeDocumentMoniker": "phongchongtoipham\\Views\\Home\\KienThuc.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive - Tr\u01B0\u1EDDng \u0110H CNTT - University of Information Technology\\T\u00E0i li\u1EC7u\\My Web Sites\\phongchongtoipham\\phongchongtoipham\\Views\\Home\\KienThuc.cshtml",
+              "RelativeToolTip": "phongchongtoipham\\Views\\Home\\KienThuc.cshtml",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAAL0AAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-31T13:54:16.213Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive - Tr\u01B0\u1EDDng \u0110H CNTT - University of Information Technology\\T\u00E0i li\u1EC7u\\My Web Sites\\phongchongtoipham\\phongchongtoipham\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "phongchongtoipham\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive - Tr\u01B0\u1EDDng \u0110H CNTT - University of Information Technology\\T\u00E0i li\u1EC7u\\My Web Sites\\phongchongtoipham\\phongchongtoipham\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "phongchongtoipham\\Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-31T08:56:55.407Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
