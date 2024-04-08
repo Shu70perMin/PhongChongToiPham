@@ -5,7 +5,7 @@ PhongChongToiPham is a responsive web application focused on raising awareness a
 
 ## Mind Map
 
-![mindmap](image/mindmap.jpg)
+![mindmap](phongchongtoipham/wwwroot/image/mindmap.jpg)
 
 
 ## Features
