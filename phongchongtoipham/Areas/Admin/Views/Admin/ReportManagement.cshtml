@@ -1,0 +1,76 @@
+﻿@{
+    ViewData["Title"] = "ReportManagement";
+    Layout = "~/Areas/Admin/Views/Shared/_Layoutadmin.cshtml";
+}
+@model Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable<phongchongtoipham.Models.Report>
+<main>
+    <div class="qltk">
+        <h2>Quản lý báo cáo</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Type</th>
+                    <th>Date</th>
+                    <th>location</th>
+                    <th>Detail</th>
+                    <th>Image</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                <tr>
+                    <td>@item.Name</td>
+                    <td>@item.Type</td>
+                    <td>@item.Date</td>
+                    <td>@item.Location</td>
+                    <td>@item.Detail</td>
+                    <td><img src="@Url.Content("../crimeImg/" + item.Image)" alt="hình ảnh báo cáo tội phạm" width="80px"></td>
+                    <td>
+                        <form action="~/Report/Accept" method="post" style="display: inline;">
+                            <button type="submit" name="id" value="@item.Id" class="AcceptButton">Accept</button>
+                        </form>
+                    </td>
+                    <td>
+                        <form action="~/Report/Accept" method="post" style="display: inline;">
+                            <button type="submit" name="id" value="@item.Id" class="RejectButton">Reject</button>
+                        </form>
+                    </td>
+                </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+
+</main>
+<script src="~/lib/jquery/jquery.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $('.AcceptButton').click(function () {
+            var tid = $('.rpid').val();
+            var tfullname = $('.fullname').val();
+            var temail = $('.email').val();
+            var tphone = $('.phone').val();
+            var tpass1 = $('.password').val();
+            var trole = $('.role').val();
+
+
+            $.ajax({
+                url: '@Url.Action("Add", "Crime", new { area = "Admin" })',
+                type: 'POST',
+                data: formData,
+                processData: false,
+                contentType: false,
+                success: function (data) {
+                    console.log(data.message);
+                    $('#AddresultMessage').text(data.message);
+                },
+                error: function (xhr, status, error) {
+                    console.log(error);
+                }
+            });
+        });
+    });
+</script>
+

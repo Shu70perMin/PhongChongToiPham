@@ -1,0 +1,198 @@
+﻿
+@{
+    ViewData["Title"] = "quiz";
+}
+
+<div class="quiz-body">
+    <div class="app">
+        <h1>Quiz kiến thức chống tội phạm</h1>
+        <div class="quiz">
+            <h2 id="question">Question</h2>
+            <div id="button-ans">
+                <button class="btn">Answer 1</button>
+                <button class="btn">Answer 2</button>
+                <button class="btn">Answer 3</button>
+                <button class="btn">Answer 4</button>
+            </div>
+            <div id="next-button">
+                Next
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    const questions = [
+        {
+            question: "Phương pháp nào không phải là biện pháp phòng chống tội phạm?",
+            answers: [
+                { text: "Tăng cường thông tin và kiến thức cho cộng đồng", correct: false },
+                { text: "Tăng cường quản lý và kiểm soát an ninh", correct: false },
+                { text: "Tăng cường việc sử dụng ma túy", correct: true },
+                { text: "Tăng cường phát triển kinh tế và giảm bất bình đẳng", correct: false }
+            ]
+        },
+        {
+            question: "Tại sao giáo dục được coi là một biện pháp quan trọng trong việc phòng chống tội phạm?",
+            answers: [
+                { text: "Giáo dục giúp nâng cao nhận thức về quyền và trách nhiệm của mỗi người", correct: true },
+                { text: "Giáo dục giúp tăng cường tinh thần đoàn kết và hợp tác trong cộng đồng", correct: true },
+                { text: "Giáo dục giúp người dân hiểu biết về pháp luật và hệ thống công bằng", correct: true },
+                { text: "Tất cả các phương án trên", correct: true }
+            ]
+        },
+        {
+            question: "Phương tiện truyền thông có vai trò gì trong việc phòng chống tội phạm?",
+            answers: [
+                { text: "Tăng cường thông tin và kiến thức cho cộng đồng", correct: true },
+                { text: "Tạo ra hình ảnh tiêu cực về tội phạm để đe dọa", correct: false },
+                { text: "Giới thiệu cách thức tham gia vào các hoạt động tội phạm", correct: false },
+                { text: "Khuyến khích hành vi bất lương", correct: false }
+            ]
+        },
+        {
+            question: "Đâu là một biện pháp hiệu quả để phòng chống tội phạm trên mạng?",
+            answers: [
+                { text: "Tăng cường kiểm soát và kiểm duyệt nội dung trên mạng", correct: true },
+                { text: "Hạn chế quyền truy cập internet cho người dân", correct: false },
+                { text: "Tăng cường việc sử dụng mạng xã hội", correct: false },
+                { text: "Khuyến khích sử dụng mạng để truy cập vào thông tin bí mật", correct: false }
+            ]
+        },
+        {
+            question: "Tại sao việc tạo ra môi trường làm việc tích cực là một biện pháp phòng chống tội phạm quan trọng?",
+            answers: [
+                { text: "Môi trường làm việc tích cực giúp giảm căng thẳng và xung đột trong cộng đồng", correct: true },
+                { text: "Môi trường làm việc tích cực tạo điều kiện cho sự hòa nhập xã hội", correct: true },
+                { text: "Môi trường làm việc tích cực tăng cường ý thức về trách nhiệm và đạo đức cá nhân", correct: true },
+                { text: "Tất cả các phương án trên", correct: true }
+            ]
+        },
+        {
+            question: "Biện pháp nào dưới đây không phải là cách tiếp cận hiệu quả trong việc giảm tội phạm trẻ em?",
+            answers: [
+                { text: "Tăng cường giám sát và hỗ trợ gia đình có nguy cơ", correct: false },
+                { text: "Cải thiện điều kiện sống và cơ hội giáo dục cho trẻ em", correct: false },
+                { text: "Tăng cường việc sử dụng vũ trang cá nhân cho trẻ em", correct: true },
+                { text: "Tăng cường giáo dục về giá trị và kỹ năng sống cho trẻ em", correct: false }
+            ]
+        },
+        {
+            question: "Tại sao việc xây dựng mối quan hệ tốt với cộng đồng là một phần quan trọng của phòng chống tội phạm?",
+            answers: [
+                { text: "Mối quan hệ tốt giữa cộng đồng giúp tạo ra sự đồng lòng và sự hỗ trợ trong việc chống lại tội phạm", correct: true },
+                { text: "Mối quan hệ tốt giúp tăng cường sự hiểu biết và sự chia sẻ thông tin về tội phạm", correct: true },
+                { text: "Mối quan hệ tốt giúp tạo ra môi trường an toàn và ổn định cho cộng đồng", correct: true },
+                { text: "Tất cả các phương án trên", correct: true }
+            ]
+        },
+        {
+            question: "Pháp luật có vai trò gì trong việc phòng chống tội phạm?",
+            answers: [
+                { text: "Xác định hành vi vi phạm và thiết lập hình phạt", correct: true },
+                { text: "Tạo ra môi trường thuận lợi cho hoạt động tội phạm", correct: false },
+                { text: "Khuyến khích hành vi vi phạm pháp luật", correct: false },
+                { text: "Tất cả các phương án trên", correct: false }
+            ]
+        },
+        {
+            question: "Biện pháp nào sau đây không phải là một phương tiện hiệu quả trong việc tăng cường an ninh và phòng chống tội phạm?",
+            answers: [
+                { text: "Tăng cường hợp tác quốc tế trong lĩnh vực pháp luật và an ninh", correct: true },
+                { text: "Phát triển và áp dụng các công nghệ mới trong quản lý an ninh", correct: true },
+                { text: "Giảm bớt quyền lực của cơ quan thực thi pháp luật", correct: false },
+                { text: "Tăng cường giám sát và kiểm soát biên giới", correct: true }
+            ]
+        }
+    ];
+
+    const questionElement = document.getElementById("question");
+    const answerButtons = document.getElementById("button-ans");
+    const nextButton = document.getElementById("next-button");
+
+
+
+    let currentQuestionIndex = 0;
+    let score = 0;
+    function starQuiz() {
+        currentQuestionIndex = 0;
+        score = 0;
+        nextButton.innerHTML = "Next";
+        showQuestion();
+    }
+
+    function showQuestion() {
+        resetState();
+        let currentQuestion = questions[currentQuestionIndex];
+        let questionNo = currentQuestionIndex + 1;
+        questionElement.innerHTML = questionNo + ". " + currentQuestion.
+            question;
+
+        currentQuestion.answers.forEach(answer => {
+            const button = document.createElement("button");
+            button.innerHTML = answer.text;
+            button.classList.add("btn");
+            answerButtons.appendChild(button);
+            if(answer.correct) {
+                button.dataset.correct = answer.correct;
+            }
+            button.addEventListener("click", selectAnswer);
+        });
+    }
+
+    function resetState() {
+        nextButton.style.display = "none";
+        while (answerButtons.firstChild) {
+            answerButtons.removeChild(answerButtons.firstChild);
+        }
+    }
+
+    function selectAnswer(e) {
+        const selectedBtn = e.target;
+        const isCorrect = selectedBtn.dataset.correct == "true";
+        if (isCorrect) {
+            selectedBtn.classList.add("correct");
+            score++;
+        }
+        else {
+            selectedBtn.classList.add("incorrect");
+        }
+        Array.from(answerButtons.children).forEach(button => { 
+            if (button.dataset.correct == "true") {
+                button.classList.add("correct")
+            }
+            button.disabled = true;
+        });
+        nextButton.style.display = "block";
+    }
+
+    function showScore(){
+        resetState();
+        questionElement.innerHTML = `You score ${score} out of ${questions.length}!`;
+        nextButton.innerHTML = "Play Again";
+        nextButton.style.display = "block";
+    }
+
+    function handleNextButton() {
+        currentQuestionIndex++;
+        if (currentQuestionIndex < questions.length) {
+            showQuestion();
+        }
+        else {
+            showScore();
+        }
+    }
+
+    nextButton.addEventListener("click", () => {
+        if (currentQuestionIndex < questions.length) {
+            handleNextButton();
+        }
+        else {
+            starQuiz();
+        }
+    });
+
+    starQuiz();
+
+
+</script>

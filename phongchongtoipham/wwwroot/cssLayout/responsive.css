@@ -1,0 +1,277 @@
+﻿@media (max-width: 740px) {
+    body {
+        width: 100%;
+    }
+
+    #header > a > img {
+        display: none;
+    }
+
+    #menu .item a {
+        font-size: 25px;
+    }
+
+    #menu {
+        display: inline-block;
+        margin-top: 20px;
+    }
+
+        #menu .item {
+            display: block;
+            margin-left: 0px;
+        }
+
+    #header {
+        justify-content: unset;
+        height: 60px;
+        overflow: hidden;
+        display: inline-block;
+        padding: 0px;
+    }
+
+        #header .bar-icon {
+            color: #fff;
+        }
+
+            #header .bar-icon:hover {
+                color: #ccc;
+                cursor: pointer;
+            }
+
+    #wrapper {
+        width: 100%;
+        position: relative;
+    }
+
+    #actions {
+        margin-top: 25px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 0 21px;
+    }
+
+    #menu .item .submenu {
+        margin-left: 30px;
+        position: static;
+        width: auto;
+        height: auto;
+        background-color: #000;
+    }
+
+        #menu .item .submenu a {
+            color: #fff;
+        }
+
+    #menu .item .submenu2 {
+        margin-left: 30px;
+        position: static;
+        width: auto;
+        height: auto;
+        background-color: #000;
+    }
+
+        #menu .item .submenu2 a {
+            color: #fff;
+        }
+
+    #banner {
+        margin-top: 0;
+        display: block;
+        padding: 0px 13px;
+        height: fit-content;
+    }
+
+        #banner .des h2 {
+            width: 100%;
+            padding-left: 25px;
+        }
+
+        #banner .des p {
+            width: 100%;
+            padding-left: 25px;
+        }
+
+        #banner .des button {
+            margin-top: 20px;
+            margin-left: 25px;
+        }
+
+        #banner .des h1 {
+            font-size: 35px;
+        }
+
+    .illustration img {
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+    }
+
+    .des {
+        width: 100%;
+    }
+
+    #banner .des h1 {
+        width: 100%;
+    }
+
+    #footer {
+        position: relative;
+    }
+
+    #banner .vertical-divider {
+        height: 310px;
+        left: 15px;
+        top: 215px;
+    }
+
+    #agency {
+        display: block;
+        padding: 0;
+        height: 770px;
+    }
+
+        #agency .boxleft, #agency .boxright {
+            width: 100%;
+        }
+
+        #agency .vertical-divider {
+            display: none;
+        }
+
+    #banner .illustration {
+        width: 100%;
+    }
+
+    #agency .boxleft img {
+        width: 100px;
+        height: auto;
+        margin-top: 50px;
+        margin-left: 20px;
+    }
+
+    #agency .boxleft h2 {
+        margin-left: 25px;
+    }
+
+    #agency .boxright {
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+
+        #agency .boxright h3, #agency .boxright p {
+            margin-left: 25px;
+            margin-right: 25px;
+        }
+
+        #agency .boxright a, #agency .boxright .horizontal-divider {
+            margin-left: 25px;
+        }
+
+    .footerContainer {
+        margin: 0;
+        width: 100%;
+        display: block;
+    }
+
+    .footer-col {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+        .footer-col h4 {
+            text-decoration: underline;
+        }
+
+    #tocao {
+        width: 100%;
+        margin-top: 70px;
+        padding: 0 13px;
+    }
+
+    #blog {
+        margin-top: 70px;
+        padding: 0 13px;
+    }
+
+        #blog .row {
+            width: 100%;
+            margin: 0;
+        }
+
+            #blog .row .header {
+                width: 90%;
+                text-align: center;
+                margin: auto;
+            }
+
+            #blog .row .content {
+                display: block;
+                margin: 0;
+            }
+
+    .row .content .card {
+        height: fit-content;
+    }
+
+    #ktkt_content {
+        padding: 0 13px;
+    }
+
+        #ktkt_content .quiz {
+            width: 90%;
+        }
+
+        #ktkt_content h1 {
+            margin-top: 70px;
+            margin-left: 0;
+            text-align: center;
+        }
+
+        #ktkt_content > p {
+            margin: 0;
+        }
+
+    #banner-kienthuc .des {
+        margin-top: 70px;
+        margin-left: 0;
+        padding: 0 13px;
+    }
+
+        #banner-kienthuc .des p {
+            width: 100%;
+        }
+
+    #banner-kienthuc .des {
+        text-align: center;
+        height: fit-content;
+    }
+
+    #banner-kienthuc .background {
+        height: 700px;
+    }
+
+    #content-kienthuc {
+        padding: 0 18px;
+    }
+
+
+
+    .quiz-body {
+        margin-top: 40px;
+        height: 750px;
+    }
+
+    #data {
+        padding: 0 13px;
+        margin: 0;
+    }
+
+    #banner-data .des {
+        margin-left: 0px;
+    }
+
+    #banner-data {
+        text-align: center;
+    }
+}

@@ -1,0 +1,94 @@
+﻿@{
+    ViewData["Title"] = "PostManagement";
+    Layout = "~/Areas/Admin/Views/Shared/_Layoutadmin.cshtml";
+}
+
+<script type="text/javascript" src="~/js/froala_editor.pkgd.min.js"></script>
+<link href="~/cssLayout/froala_editor.pkgd.min.css" rel="stylesheet" type="text/css" />
+
+
+
+
+<div class="mainFrame">
+
+    <div class="mainPost">
+        <div id="EditresultMessage"></div>
+        <form class="formButton" id="formBlog">
+
+            <div class="form-group">
+                <label>Tiêu đề:</label>
+                <input type="text" class="form-control" id="title" required />
+            </div>
+
+            <div class="form-group">
+                <label>Ảnh đại diện:</label>
+                <input accept=".png" type="file" id="avatar" required />
+            </div>
+
+
+            <textarea asp-for=Content id="c1"></textarea>
+            <textarea asp-for=Content id="c2"></textarea>
+            <textarea asp-for=Content id="c3"></textarea>
+            <button type="button" id="post">Submit</button>
+        </form>
+
+        <script>
+            var editor = new FroalaEditor('#c1', {
+                toolbarButtons: [['bold', 'italic', 'underline', 'strikeThrough', 'subscript', 'superscript'], ['fontFamily', 'fontSize', 'textColor', 'backgroundColor'], ['inlineClass', 'inlineStyle', 'clearFormatting']]
+            });
+            var editor = new FroalaEditor('#c2', {
+                toolbarButtons: [['bold', 'italic', 'underline', 'strikeThrough', 'subscript', 'superscript'], ['fontFamily', 'fontSize', 'textColor', 'backgroundColor'], ['inlineClass', 'inlineStyle', 'clearFormatting']]
+            });
+            var editor = new FroalaEditor('#c3', {
+                toolbarButtons: [['bold', 'italic', 'underline', 'strikeThrough', 'subscript', 'superscript'], ['fontFamily', 'fontSize', 'textColor', 'backgroundColor'], ['inlineClass', 'inlineStyle', 'clearFormatting']]
+            });
+        </script>
+    </div>
+</div>
+<script src="~/lib/jquery/jquery.min.js"></script>
+
+<script>
+    $(document).ready(function () {
+        $('#post').click(function () {
+            var formData = new FormData();
+            formData.append('title', $('#title').val());
+            formData.append('c1', $('#c1').val());
+            formData.append('c2', $('#c2').val());
+            formData.append('c3', $('#c3').val());
+            formData.append('image', $('#avatar')[0].files[0]);
+
+
+
+            $.ajax({
+                url: '@Url.Action("PostRequest", "Post", new { area = "Admin" })',
+                type: 'POST',
+                data: formData,
+                processData: false,
+                contentType: false,
+                success: function (data) {
+                    console.log(data.message);
+                    $('#EditresultMessage').text(data.message);
+                },
+                error: function (xhr, status, error) {
+                    console.log(error);
+                }
+            });
+        });
+    });
+</script>
+
+<style>
+    .mainFrame {
+        width: 80%;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #f7f7f7;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .form-group {
+        margin-top: 10px
+    }
+</style>

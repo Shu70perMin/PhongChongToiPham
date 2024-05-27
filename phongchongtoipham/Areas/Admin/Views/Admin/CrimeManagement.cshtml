@@ -1,0 +1,218 @@
+﻿@{
+    ViewData["Title"] = "CrimeManagement";
+    Layout = "~/Areas/Admin/Views/Shared/_Layoutadmin.cshtml";
+}
+
+@model Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable<phongchongtoipham.Models.CrimeList>
+
+<main>
+    <div class="qltk">
+        <h2>Quản lý tội phạm</h2>
+        <button id="AddFormButton" class="btn btn-primary">Thêm tội phạm</button>
+        <div id="AddForm" class="formContent">
+            <h2>Thêm tội phạm</h2>
+            <div id="AddresultMessage"></div>
+            <form id="AddformAJAX">
+                <div>
+                    <label>Id:</label>
+                    <input id="addcrimeid" type="text" requi    red />
+                </div>
+                <div>
+                    <label>Họ tên:</label>
+                    <input id="addname" type="text" required />
+                </div>
+                <div>
+                    <label>Tội danh:</label>
+                    <input id="addtype" type="text" required />
+                </div>
+                <div>
+                    <label>Ngày phạm tội:</label>
+                    <input id="adddate" type="text" required />
+                </div>
+                <div>
+                    <label>Địa điểm:</label>
+                    <input id="addlocation" type="text" required />
+                </div>
+                <div>
+                    <label>Trạng thái:</label>
+                    <input id="addstatus" type="text" required />
+                </div>
+                <div>
+                    <label>Hình ảnh:</label>
+                    <input id="addimage" type="file" accept=".png" required />
+                </div>
+
+                <div class="btn-group">
+                    <button id="submitAddform" type="button" class="btn btn-first">Thêm</button>
+                    <button id="CloseAddForm" type="button" class="btn btn-second">Đóng</button>
+                </div>
+            </form>
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Type</th>
+                    <th>Date</th>
+                    <th>Location</th>
+                    <th>Status</th>
+                    <th>Image</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.Id</td>
+                        <td>@item.Name</td>
+                        <td>@item.Type</td>
+                        <td>@item.Date</td>
+                        <td>@item.Location</td>
+                        <td>@item.Status</td>
+                        <td><img src="@Url.Content("../crimeImg/" + item.Image)" alt="hình ảnh chỉ mang tính chất mình họa" width="80"></td>
+                        <td>
+                            <p class="EditFormButton">Sửa</p>
+                            <div class="EditForm formContent">
+                                <h2>Sửa thông tin</h2>
+                                <div class="EditresultMessage"></div>
+                                <form>
+                                    <label for="name">Họ tên:</label>
+                                    <input type="text" class="name" value="@item.Name" required>
+
+                                    <label for="type">Tội danh:</label>
+                                    <input type="text" class="type" value="@item.Type" required>
+
+                                    <label for="date">Ngày phạm tội:</label>
+                                    <input type="text" class="date" value="@item.Date" required>
+
+                                    <label for="location">Địa điểm:</label>
+                                    <input type="text" class="location" value="@item.Location" required>
+
+                                    <label for="status">Trạng thái:</label>
+                                    <input class="status" type="text" value="@item.Status" required />
+
+                                    <label>Ảnh:</label>
+                                    <input accept=".png" type="file" class="editimage" />
+                                    <img src="@Url.Content("../crimeImg/" + item.Image)" alt="Ảnh sản phẩm" width="100" />
+
+                                    <input type="text" value="@item.Id" class="editid" style="display: none;" />
+                                    <div class="btn-group">
+                                        <button type="button" class="submitEditform btn btn-first">Lưu</button>
+                                        <button type="button" class="CloseEditForm btn btn-second">Đóng</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </td>
+                        <td>
+                            <form action="~/Crime/Remove" method="post" style="display: inline;">
+                                <button type="submit" name="id" value="@item.Id" class="btn btn-danger">Xóa</button>
+                            </form>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+
+</main>
+<script src="~/lib/jquery/jquery.min.js"></script>
+<script>
+            <!--đóng form, sửa form-- >
+        document.querySelectorAll(".EditFormButton").forEach(function (button) {
+            button.addEventListener("click", function () {
+                var editForm = this.nextElementSibling;
+                editForm.style.display = "block";
+                document.getElementById("overlay").style.display = "block";
+            });
+        });
+
+    document.querySelectorAll(".CloseEditForm").forEach(function (button) {
+        button.addEventListener("click", function () {
+            var editForm = this.closest(".EditForm");
+            editForm.style.display = "none";
+            document.getElementById("overlay").style.display = "none";
+        });
+    });
+
+    document.getElementById("AddFormButton").addEventListener("click", function () {
+        document.getElementById("AddForm").style.display = "block";
+        document.getElementById("overlay").style.display = "block";
+    });
+
+    document.getElementById("CloseAddForm").addEventListener("click", function () {
+        document.getElementById("AddForm").style.display = "none";
+        document.getElementById("overlay").style.display = "none";
+    });
+
+</script>
+<script>
+    $(document).ready(function () {
+        $('#submitAddform').click(function () {
+            var tid = $('#addcrimeid').val();
+            var tname = $('#addname').val();
+            var ttype = $('#addtype').val();
+            var tdate = $('#adddate').val();
+            var tlocation = $('#addlocation').val();
+            var tstatus = $('#addstatus').val();
+            var timage = $('#addimage').val();
+           
+            var formData = new FormData();
+            formData.append('id', tid);
+            formData.append('name', tname);
+            formData.append('type', ttype);
+            formData.append('date', tdate);
+            formData.append('location', tlocation);
+            formData.append('status', tstatus);
+            formData.append('image', $('#addimage')[0].files[0]);
+           
+
+            $.ajax({
+                url: '@Url.Action("Add", "Crime", new { area = "Admin" })',
+                type: 'POST',
+                data: formData,
+                processData: false,
+                contentType: false,
+                success: function (data) {
+                    console.log(data.message);
+                    $('#AddresultMessage').text(data.message);
+                },
+                error: function (xhr, status, error) {
+                    console.log(error);
+                }
+            });
+        });
+    });
+</script>
+<script>
+    $(document).ready(function () {
+        $('.submitEditform').click(function () {
+            var formData = new FormData();
+            formData.append('id', $('.editid').val());
+            formData.append('name', $('.name').val());
+            formData.append('type', $('.type').val());
+            formData.append('date', $('.date').val());
+            formData.append('location', $('.location').val());
+            formData.append('status', $('.status').val());
+            formData.append('image', $('.editimage')[0].files[0]);
+       
+
+            $.ajax({
+                url: '@Url.Action("Edit", "Crime", new { area = "Admin" })',
+                type: 'POST',
+                data: formData,
+                processData: false,
+                contentType: false,
+                success: function (data) {
+                    console.log(data.message);
+                    $('.EditresultMessage').text(data.message);
+                },
+                error: function (xhr, status, error) {
+                    console.log(error);
+                }
+            });
+        });
+    });
+</script>
+
+

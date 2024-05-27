@@ -1,0 +1,47 @@
+﻿
+@{
+    ViewData["Title"] = "ctbv";
+    Layout = "~/Views/Shared/_Layout1.cshtml";
+}
+@model Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable<phongchongtoipham.Models.Blog>
+
+<div id="banner-kienthuc">
+    <div class="des">
+        <h2>Kiến thức</h2>
+        <h1>PHÒNG CHỐNG TỘI PHẠM</h1>
+        <p>Tội phạm không chỉ gây tổn thương cho cá nhân mà còn ảnh hưởng đến sự an toàn và sự phát triển của cộng đồng. Trang web của chúng tôi được thành lập với mục tiêu cung cấp kiến thức và công cụ cần thiết để ngăn chặn và giảm thiểu tội phạm trong xã hội. Chúng tôi tin rằng việc tăng cường nhận thức và hiểu biết về tội phạm có thể giúp mọi người trở nên tự tin và khéo léo hơn trong việc bảo vệ bản thân và người thân.</p>
+    </div>
+    <div class="background"></div>
+</div>
+
+<div id="content-blog">
+    <div class="content">
+        @foreach (var item in Model)
+        {
+            <h1>@item.Title</h1>
+            <p>@item.Content1</p>
+            <p>@item.Content2</p>
+            <p>@item.Content3</p>
+        }
+    </div>
+    </div>
+  <style>
+      #content-blog{
+          margin-top: 80px;
+          max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        #content-blog h1{
+            text-align: center;
+        }
+
+        #content-blog p{
+            margin-top: 15px;
+            margin-bottom: 15px;
+        }
+
+
+  </style>
+

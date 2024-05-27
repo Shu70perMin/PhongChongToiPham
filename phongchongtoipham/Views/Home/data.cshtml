@@ -1,0 +1,54 @@
+﻿
+@{
+    ViewData["Title"] = "data";
+}
+@using X.PagedList.Mvc.Core
+@model X.PagedList.IPagedList<CrimeList>
+<head>
+    <script src="https://www.gstatic.com/charts/loader.js"></script>
+</head>
+
+<div id="banner-data">
+    <div class="des">         
+        <h2>Dữ liệu</h2>
+        <h1>PHÒNG CHỐNG TỘI PHẠM</h1>
+        <p>Trang dữ liệu tội phạm cung cấp thông tin chi tiết về các hoạt động phạm tội, bao gồm loại tội phạm, thống kê về tình hình tội phạm và các báo cáo nghiên cứu về xu hướng tội phạm. Điều này giúp cộng đồng và các nhà quản lý công lý hiểu rõ hơn về vấn đề này và đưa ra các biện pháp phòng ngừa và xử lý tội phạm hiệu quả.</p>
+    </div>
+    <div class="background"></div>   
+</div>
+
+<div id="data">
+    <h2>Ngân hàng dữ liệu chống tội phạm</h2>
+    <form action="~/home/data" method="post">
+    <div class="search-container">
+        <input name="name" type="text" placeholder="Search...">
+        <button type="submit">Search</button>
+    </form>
+    </div>
+    <table>
+        <tr>
+            <th>Địa điểm</th>
+            <th>Họ và tên</th>
+            <th>Trạng thái</th>
+            <th>Ngày báo cáo</th>
+            <th>Hình thức</th>
+        </tr>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Location</td>
+                <td>@item.Name</td>
+                <td>Chưa tóm</td>
+                <td>@item.Date</td>
+                <td>@item.Type</td>
+            </tr>
+        }
+              </table>
+              <div class="pagination">
+                @Html.PagedListPager(Model, page=>Url.Action("data", new{page=page}))
+            </div>
+        </div>
+   
+
+
+

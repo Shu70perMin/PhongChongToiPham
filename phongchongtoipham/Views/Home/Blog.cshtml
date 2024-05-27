@@ -1,0 +1,25 @@
+﻿
+@{
+    ViewData["Title"] = "Blog";
+}
+@model Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable<phongchongtoipham.Models.Blog>
+
+<div id="blog">
+            <div class="row">
+                <div class="header">
+                    <h1>Our Blog</h1>
+                    <p>Chào mừng bạn đến với blog của chúng tôi về chủ đề chống tội phạm! Ở đây, chúng tôi khám phá các phương pháp hiệu quả để ngăn chặn và giảm thiểu tội phạm trong cộng đồng. Từ các chiến lược phòng ngừa đến phân tích xu hướng tội phạm, chúng tôi cung cấp kiến thức và cung cấp thông tin để tạo ra một môi trường an toàn và hòa bình hơn cho mọi người. Hãy tham gia cùng chúng tôi để học hỏi và chia sẻ những cách tiếp cận tích cực trong việc đối phó với tội phạm.</p>
+                </div>
+                <div class="content">
+            @foreach (var item in Model)
+            {
+                    <div class="card">
+                        <a href="@Url.Action("ctbv", "Home", new { title = item.Title })" >
+                        <img src="@Url.Content("../blogImg/" + item.Image)" alt="">
+                        <h4>@item.Title</h4>
+                        </a>
+                    </div>
+            }
+                </div>
+            </div>
+        </div>

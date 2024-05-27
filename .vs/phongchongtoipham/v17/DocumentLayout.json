@@ -1,0 +1,389 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\phongchongtoipham\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{28D00FF8-4362-4890-B5AF-DC54EF1A8EF5}|phongchongtoipham\\phongchongtoipham.csproj|c:\\phongchongtoipham\\phongchongtoipham\\wwwroot\\csslayout\\responsive.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{28D00FF8-4362-4890-B5AF-DC54EF1A8EF5}|phongchongtoipham\\phongchongtoipham.csproj|solutionrelative:phongchongtoipham\\wwwroot\\csslayout\\responsive.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28D00FF8-4362-4890-B5AF-DC54EF1A8EF5}|phongchongtoipham\\phongchongtoipham.csproj|C:\\phongchongtoipham\\phongchongtoipham\\views\\shared\\_layout1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{28D00FF8-4362-4890-B5AF-DC54EF1A8EF5}|phongchongtoipham\\phongchongtoipham.csproj|solutionrelative:phongchongtoipham\\views\\shared\\_layout1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28D00FF8-4362-4890-B5AF-DC54EF1A8EF5}|phongchongtoipham\\phongchongtoipham.csproj|C:\\phongchongtoipham\\phongchongtoipham\\views\\home\\report.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{28D00FF8-4362-4890-B5AF-DC54EF1A8EF5}|phongchongtoipham\\phongchongtoipham.csproj|solutionrelative:phongchongtoipham\\views\\home\\report.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28D00FF8-4362-4890-B5AF-DC54EF1A8EF5}|phongchongtoipham\\phongchongtoipham.csproj|C:\\phongchongtoipham\\phongchongtoipham\\views\\home\\data.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{28D00FF8-4362-4890-B5AF-DC54EF1A8EF5}|phongchongtoipham\\phongchongtoipham.csproj|solutionrelative:phongchongtoipham\\views\\home\\data.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28D00FF8-4362-4890-B5AF-DC54EF1A8EF5}|phongchongtoipham\\phongchongtoipham.csproj|C:\\phongchongtoipham\\phongchongtoipham\\wwwroot\\csslayout\\forms.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{28D00FF8-4362-4890-B5AF-DC54EF1A8EF5}|phongchongtoipham\\phongchongtoipham.csproj|solutionrelative:phongchongtoipham\\wwwroot\\csslayout\\forms.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28D00FF8-4362-4890-B5AF-DC54EF1A8EF5}|phongchongtoipham\\phongchongtoipham.csproj|C:\\phongchongtoipham\\phongchongtoipham\\wwwroot\\csslayout\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{28D00FF8-4362-4890-B5AF-DC54EF1A8EF5}|phongchongtoipham\\phongchongtoipham.csproj|solutionrelative:phongchongtoipham\\wwwroot\\csslayout\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28D00FF8-4362-4890-B5AF-DC54EF1A8EF5}|phongchongtoipham\\phongchongtoipham.csproj|C:\\phongchongtoipham\\phongchongtoipham\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{28D00FF8-4362-4890-B5AF-DC54EF1A8EF5}|phongchongtoipham\\phongchongtoipham.csproj|solutionrelative:phongchongtoipham\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28D00FF8-4362-4890-B5AF-DC54EF1A8EF5}|phongchongtoipham\\phongchongtoipham.csproj|C:\\phongchongtoipham\\phongchongtoipham\\views\\home\\kienthuc.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{28D00FF8-4362-4890-B5AF-DC54EF1A8EF5}|phongchongtoipham\\phongchongtoipham.csproj|solutionrelative:phongchongtoipham\\views\\home\\kienthuc.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28D00FF8-4362-4890-B5AF-DC54EF1A8EF5}|phongchongtoipham\\phongchongtoipham.csproj|C:\\phongchongtoipham\\phongchongtoipham\\wwwroot\\css\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{28D00FF8-4362-4890-B5AF-DC54EF1A8EF5}|phongchongtoipham\\phongchongtoipham.csproj|solutionrelative:phongchongtoipham\\wwwroot\\css\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28D00FF8-4362-4890-B5AF-DC54EF1A8EF5}|phongchongtoipham\\phongchongtoipham.csproj|C:\\phongchongtoipham\\phongchongtoipham\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{28D00FF8-4362-4890-B5AF-DC54EF1A8EF5}|phongchongtoipham\\phongchongtoipham.csproj|solutionrelative:phongchongtoipham\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28D00FF8-4362-4890-B5AF-DC54EF1A8EF5}|phongchongtoipham\\phongchongtoipham.csproj|C:\\phongchongtoipham\\phongchongtoipham\\models\\pctpdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28D00FF8-4362-4890-B5AF-DC54EF1A8EF5}|phongchongtoipham\\phongchongtoipham.csproj|solutionrelative:phongchongtoipham\\models\\pctpdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28D00FF8-4362-4890-B5AF-DC54EF1A8EF5}|phongchongtoipham\\phongchongtoipham.csproj|C:\\phongchongtoipham\\phongchongtoipham\\models\\authentication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28D00FF8-4362-4890-B5AF-DC54EF1A8EF5}|phongchongtoipham\\phongchongtoipham.csproj|solutionrelative:phongchongtoipham\\models\\authentication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28D00FF8-4362-4890-B5AF-DC54EF1A8EF5}|phongchongtoipham\\phongchongtoipham.csproj|C:\\phongchongtoipham\\phongchongtoipham\\areas\\admin\\controllers\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28D00FF8-4362-4890-B5AF-DC54EF1A8EF5}|phongchongtoipham\\phongchongtoipham.csproj|solutionrelative:phongchongtoipham\\areas\\admin\\controllers\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28D00FF8-4362-4890-B5AF-DC54EF1A8EF5}|phongchongtoipham\\phongchongtoipham.csproj|C:\\phongchongtoipham\\phongchongtoipham\\areas\\admin\\views\\admin\\postmanagement.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{28D00FF8-4362-4890-B5AF-DC54EF1A8EF5}|phongchongtoipham\\phongchongtoipham.csproj|solutionrelative:phongchongtoipham\\areas\\admin\\views\\admin\\postmanagement.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28D00FF8-4362-4890-B5AF-DC54EF1A8EF5}|phongchongtoipham\\phongchongtoipham.csproj|C:\\phongchongtoipham\\phongchongtoipham\\areas\\admin\\views\\admin\\crimemanagement.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{28D00FF8-4362-4890-B5AF-DC54EF1A8EF5}|phongchongtoipham\\phongchongtoipham.csproj|solutionrelative:phongchongtoipham\\areas\\admin\\views\\admin\\crimemanagement.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28D00FF8-4362-4890-B5AF-DC54EF1A8EF5}|phongchongtoipham\\phongchongtoipham.csproj|C:\\phongchongtoipham\\phongchongtoipham\\areas\\admin\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28D00FF8-4362-4890-B5AF-DC54EF1A8EF5}|phongchongtoipham\\phongchongtoipham.csproj|solutionrelative:phongchongtoipham\\areas\\admin\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28D00FF8-4362-4890-B5AF-DC54EF1A8EF5}|phongchongtoipham\\phongchongtoipham.csproj|C:\\phongchongtoipham\\phongchongtoipham\\areas\\admin\\controllers\\crimecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28D00FF8-4362-4890-B5AF-DC54EF1A8EF5}|phongchongtoipham\\phongchongtoipham.csproj|solutionrelative:phongchongtoipham\\areas\\admin\\controllers\\crimecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28D00FF8-4362-4890-B5AF-DC54EF1A8EF5}|phongchongtoipham\\phongchongtoipham.csproj|C:\\phongchongtoipham\\phongchongtoipham\\areas\\admin\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{28D00FF8-4362-4890-B5AF-DC54EF1A8EF5}|phongchongtoipham\\phongchongtoipham.csproj|solutionrelative:phongchongtoipham\\areas\\admin\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28D00FF8-4362-4890-B5AF-DC54EF1A8EF5}|phongchongtoipham\\phongchongtoipham.csproj|C:\\phongchongtoipham\\phongchongtoipham\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{28D00FF8-4362-4890-B5AF-DC54EF1A8EF5}|phongchongtoipham\\phongchongtoipham.csproj|solutionrelative:phongchongtoipham\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28D00FF8-4362-4890-B5AF-DC54EF1A8EF5}|phongchongtoipham\\phongchongtoipham.csproj|C:\\phongchongtoipham\\phongchongtoipham\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28D00FF8-4362-4890-B5AF-DC54EF1A8EF5}|phongchongtoipham\\phongchongtoipham.csproj|solutionrelative:phongchongtoipham\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28D00FF8-4362-4890-B5AF-DC54EF1A8EF5}|phongchongtoipham\\phongchongtoipham.csproj|C:\\phongchongtoipham\\phongchongtoipham\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28D00FF8-4362-4890-B5AF-DC54EF1A8EF5}|phongchongtoipham\\phongchongtoipham.csproj|solutionrelative:phongchongtoipham\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28D00FF8-4362-4890-B5AF-DC54EF1A8EF5}|phongchongtoipham\\phongchongtoipham.csproj|C:\\phongchongtoipham\\phongchongtoipham\\views\\home\\blog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{28D00FF8-4362-4890-B5AF-DC54EF1A8EF5}|phongchongtoipham\\phongchongtoipham.csproj|solutionrelative:phongchongtoipham\\views\\home\\blog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28D00FF8-4362-4890-B5AF-DC54EF1A8EF5}|phongchongtoipham\\phongchongtoipham.csproj|C:\\phongchongtoipham\\phongchongtoipham\\views\\home\\ctbv.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{28D00FF8-4362-4890-B5AF-DC54EF1A8EF5}|phongchongtoipham\\phongchongtoipham.csproj|solutionrelative:phongchongtoipham\\views\\home\\ctbv.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Forms.css",
+              "DocumentMoniker": "C:\\phongchongtoipham\\phongchongtoipham\\wwwroot\\cssLayout\\Forms.css",
+              "RelativeDocumentMoniker": "phongchongtoipham\\wwwroot\\cssLayout\\Forms.css",
+              "ToolTip": "C:\\phongchongtoipham\\phongchongtoipham\\wwwroot\\cssLayout\\Forms.css",
+              "RelativeToolTip": "phongchongtoipham\\wwwroot\\cssLayout\\Forms.css",
+              "ViewState": "AQIAAGwAAAAAAAAAAAAAAHwAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-05-20T17:11:21.496Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "responsive.css",
+              "DocumentMoniker": "C:\\phongchongtoipham\\phongchongtoipham\\wwwroot\\cssLayout\\responsive.css",
+              "RelativeDocumentMoniker": "phongchongtoipham\\wwwroot\\cssLayout\\responsive.css",
+              "ToolTip": "C:\\phongchongtoipham\\phongchongtoipham\\wwwroot\\cssLayout\\responsive.css",
+              "RelativeToolTip": "phongchongtoipham\\wwwroot\\cssLayout\\responsive.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUBAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-05-20T16:54:59.973Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "styles.css",
+              "DocumentMoniker": "C:\\phongchongtoipham\\phongchongtoipham\\wwwroot\\css\\styles.css",
+              "RelativeDocumentMoniker": "phongchongtoipham\\wwwroot\\css\\styles.css",
+              "ToolTip": "C:\\phongchongtoipham\\phongchongtoipham\\wwwroot\\css\\styles.css",
+              "RelativeToolTip": "phongchongtoipham\\wwwroot\\css\\styles.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAYwBsAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-05-20T16:46:53.891Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "KienThuc.cshtml",
+              "DocumentMoniker": "C:\\phongchongtoipham\\phongchongtoipham\\Views\\Home\\KienThuc.cshtml",
+              "RelativeDocumentMoniker": "phongchongtoipham\\Views\\Home\\KienThuc.cshtml",
+              "ToolTip": "C:\\phongchongtoipham\\phongchongtoipham\\Views\\Home\\KienThuc.cshtml",
+              "RelativeToolTip": "phongchongtoipham\\Views\\Home\\KienThuc.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-20T16:46:22.018Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Report.cshtml",
+              "DocumentMoniker": "C:\\phongchongtoipham\\phongchongtoipham\\Views\\Home\\Report.cshtml",
+              "RelativeDocumentMoniker": "phongchongtoipham\\Views\\Home\\Report.cshtml",
+              "ToolTip": "C:\\phongchongtoipham\\phongchongtoipham\\Views\\Home\\Report.cshtml",
+              "RelativeToolTip": "phongchongtoipham\\Views\\Home\\Report.cshtml",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAADAAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-20T16:41:54.688Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PctpdbContext.cs",
+              "DocumentMoniker": "C:\\phongchongtoipham\\phongchongtoipham\\Models\\PctpdbContext.cs",
+              "RelativeDocumentMoniker": "phongchongtoipham\\Models\\PctpdbContext.cs",
+              "ToolTip": "C:\\phongchongtoipham\\phongchongtoipham\\Models\\PctpdbContext.cs",
+              "RelativeToolTip": "phongchongtoipham\\Models\\PctpdbContext.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAhwBoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T16:32:47.773Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout1.cshtml",
+              "DocumentMoniker": "C:\\phongchongtoipham\\phongchongtoipham\\Views\\Shared\\_Layout1.cshtml",
+              "RelativeDocumentMoniker": "phongchongtoipham\\Views\\Shared\\_Layout1.cshtml",
+              "ToolTip": "C:\\phongchongtoipham\\phongchongtoipham\\Views\\Shared\\_Layout1.cshtml",
+              "RelativeToolTip": "phongchongtoipham\\Views\\Shared\\_Layout1.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-20T16:23:13.233Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\phongchongtoipham\\phongchongtoipham\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "phongchongtoipham\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\phongchongtoipham\\phongchongtoipham\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "phongchongtoipham\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABkAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-20T16:21:44.02Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CrimeController.cs",
+              "DocumentMoniker": "C:\\phongchongtoipham\\phongchongtoipham\\Areas\\Admin\\Controllers\\CrimeController.cs",
+              "RelativeDocumentMoniker": "phongchongtoipham\\Areas\\Admin\\Controllers\\CrimeController.cs",
+              "ToolTip": "C:\\phongchongtoipham\\phongchongtoipham\\Areas\\Admin\\Controllers\\CrimeController.cs",
+              "RelativeToolTip": "phongchongtoipham\\Areas\\Admin\\Controllers\\CrimeController.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T15:33:28.619Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PostManagement.cshtml",
+              "DocumentMoniker": "C:\\phongchongtoipham\\phongchongtoipham\\Areas\\Admin\\Views\\Admin\\PostManagement.cshtml",
+              "RelativeDocumentMoniker": "phongchongtoipham\\Areas\\Admin\\Views\\Admin\\PostManagement.cshtml",
+              "ToolTip": "C:\\phongchongtoipham\\phongchongtoipham\\Areas\\Admin\\Views\\Admin\\PostManagement.cshtml",
+              "RelativeToolTip": "phongchongtoipham\\Areas\\Admin\\Views\\Admin\\PostManagement.cshtml",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAADkAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-20T15:28:18.654Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PostController.cs",
+              "DocumentMoniker": "C:\\phongchongtoipham\\phongchongtoipham\\Areas\\Admin\\Controllers\\PostController.cs",
+              "RelativeDocumentMoniker": "phongchongtoipham\\Areas\\Admin\\Controllers\\PostController.cs",
+              "ToolTip": "C:\\phongchongtoipham\\phongchongtoipham\\Areas\\Admin\\Controllers\\PostController.cs",
+              "RelativeToolTip": "phongchongtoipham\\Areas\\Admin\\Controllers\\PostController.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwCUAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T15:27:54.174Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "_Layoutadmin.cshtml",
+              "DocumentMoniker": "C:\\phongchongtoipham\\phongchongtoipham\\Areas\\Admin\\Views\\Shared\\_Layoutadmin.cshtml",
+              "RelativeDocumentMoniker": "phongchongtoipham\\Areas\\Admin\\Views\\Shared\\_Layoutadmin.cshtml",
+              "ToolTip": "C:\\phongchongtoipham\\phongchongtoipham\\Areas\\Admin\\Views\\Shared\\_Layoutadmin.cshtml",
+              "RelativeToolTip": "phongchongtoipham\\Areas\\Admin\\Views\\Shared\\_Layoutadmin.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-20T15:24:55.891Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\phongchongtoipham\\phongchongtoipham\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "phongchongtoipham\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\phongchongtoipham\\phongchongtoipham\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "phongchongtoipham\\Controllers\\AuthController.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAYwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T15:06:40.261Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\phongchongtoipham\\phongchongtoipham\\Views\\Auth\\Login.cshtml",
+              "RelativeDocumentMoniker": "phongchongtoipham\\Views\\Auth\\Login.cshtml",
+              "ToolTip": "C:\\phongchongtoipham\\phongchongtoipham\\Views\\Auth\\Login.cshtml",
+              "RelativeToolTip": "phongchongtoipham\\Views\\Auth\\Login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-20T15:06:35.846Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Authentication.cs",
+              "DocumentMoniker": "C:\\phongchongtoipham\\phongchongtoipham\\Models\\Authentication.cs",
+              "RelativeDocumentMoniker": "phongchongtoipham\\Models\\Authentication.cs",
+              "ToolTip": "C:\\phongchongtoipham\\phongchongtoipham\\Models\\Authentication.cs",
+              "RelativeToolTip": "phongchongtoipham\\Models\\Authentication.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T15:04:30.576Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "data.cshtml",
+              "DocumentMoniker": "C:\\phongchongtoipham\\phongchongtoipham\\Views\\Home\\data.cshtml",
+              "RelativeDocumentMoniker": "phongchongtoipham\\Views\\Home\\data.cshtml",
+              "ToolTip": "C:\\phongchongtoipham\\phongchongtoipham\\Views\\Home\\data.cshtml",
+              "RelativeToolTip": "phongchongtoipham\\Views\\Home\\data.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADEAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-20T14:39:59Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "styles.css",
+              "DocumentMoniker": "C:\\phongchongtoipham\\phongchongtoipham\\wwwroot\\cssLayout\\styles.css",
+              "RelativeDocumentMoniker": "phongchongtoipham\\wwwroot\\cssLayout\\styles.css",
+              "ToolTip": "C:\\phongchongtoipham\\phongchongtoipham\\wwwroot\\cssLayout\\styles.css",
+              "RelativeToolTip": "phongchongtoipham\\wwwroot\\cssLayout\\styles.css",
+              "ViewState": "AQIAAJkCAAAAAAAAAAAYwJsCAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-05-20T14:00:50.452Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\phongchongtoipham\\phongchongtoipham\\Areas\\Admin\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "phongchongtoipham\\Areas\\Admin\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\phongchongtoipham\\phongchongtoipham\\Areas\\Admin\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "phongchongtoipham\\Areas\\Admin\\Controllers\\AdminController.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAQwCsAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T13:52:54.051Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CrimeManagement.cshtml",
+              "DocumentMoniker": "C:\\phongchongtoipham\\phongchongtoipham\\Areas\\Admin\\Views\\Admin\\CrimeManagement.cshtml",
+              "RelativeDocumentMoniker": "phongchongtoipham\\Areas\\Admin\\Views\\Admin\\CrimeManagement.cshtml",
+              "ToolTip": "C:\\phongchongtoipham\\phongchongtoipham\\Areas\\Admin\\Views\\Admin\\CrimeManagement.cshtml",
+              "RelativeToolTip": "phongchongtoipham\\Areas\\Admin\\Views\\Admin\\CrimeManagement.cshtml",
+              "ViewState": "AQIAAI0AAAAAAAAAAAAAAKYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-20T13:30:25.899Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ScaffoldingReadMe.txt",
+              "DocumentMoniker": "C:\\phongchongtoipham\\phongchongtoipham\\ScaffoldingReadMe.txt",
+              "RelativeDocumentMoniker": "phongchongtoipham\\ScaffoldingReadMe.txt",
+              "ToolTip": "C:\\phongchongtoipham\\phongchongtoipham\\ScaffoldingReadMe.txt",
+              "RelativeToolTip": "phongchongtoipham\\ScaffoldingReadMe.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-05-20T13:27:59.965Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ctbv.cshtml",
+              "DocumentMoniker": "C:\\phongchongtoipham\\phongchongtoipham\\Views\\Home\\ctbv.cshtml",
+              "RelativeDocumentMoniker": "phongchongtoipham\\Views\\Home\\ctbv.cshtml",
+              "ToolTip": "C:\\phongchongtoipham\\phongchongtoipham\\Views\\Home\\ctbv.cshtml",
+              "RelativeToolTip": "phongchongtoipham\\Views\\Home\\ctbv.cshtml",
+              "ViewState": "AQIAAAIAAAAAAAAAAADwvxQAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-20T13:26:14.434Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Blog.cshtml",
+              "DocumentMoniker": "C:\\phongchongtoipham\\phongchongtoipham\\Views\\Home\\Blog.cshtml",
+              "RelativeDocumentMoniker": "phongchongtoipham\\Views\\Home\\Blog.cshtml",
+              "ToolTip": "C:\\phongchongtoipham\\phongchongtoipham\\Views\\Home\\Blog.cshtml",
+              "RelativeToolTip": "phongchongtoipham\\Views\\Home\\Blog.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-20T13:25:50.797Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\phongchongtoipham\\phongchongtoipham\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "phongchongtoipham\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\phongchongtoipham\\phongchongtoipham\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "phongchongtoipham\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwCUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T13:25:42.147Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
