@@ -18,6 +18,7 @@ namespace phongchongtoipham.Areas.Admin.Controllers
             _logger = logger;
         }
         [Route("ReportManagement")]
+        [Authentication]
         public IActionResult ReportManagement()
         {
             var list = from p in db.Reports
@@ -25,6 +26,7 @@ namespace phongchongtoipham.Areas.Admin.Controllers
             return View(list);
         }
         [Route("CrimeManagement")]
+        [Authentication]
         public IActionResult CrimeManagement() 
         {
             var list = from p in db.CrimeLists
@@ -32,6 +34,7 @@ namespace phongchongtoipham.Areas.Admin.Controllers
             return View(list);
         }
         [Route("UserManagement")]
+        [Authentication]
         public IActionResult UserManagement()
         {
             var list = from p in db.Users
@@ -39,6 +42,7 @@ namespace phongchongtoipham.Areas.Admin.Controllers
             return View(list);
         }
         [Route("PostManagement")]
+        [Authentication]
         public IActionResult PostManagement()
         {
             return View();

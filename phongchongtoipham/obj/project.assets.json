@@ -7903,11 +7903,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\phongchongtoipham\\phongchongtoipham\\phongchongtoipham.csproj",
+      "projectUniqueName": "C:\\phongchongtoipham\\PhongChongToiPham\\phongchongtoipham\\phongchongtoipham.csproj",
       "projectName": "phongchongtoipham",
-      "projectPath": "C:\\phongchongtoipham\\phongchongtoipham\\phongchongtoipham.csproj",
+      "projectPath": "C:\\phongchongtoipham\\PhongChongToiPham\\phongchongtoipham\\phongchongtoipham.csproj",
       "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-      "outputPath": "C:\\phongchongtoipham\\phongchongtoipham\\obj\\",
+      "outputPath": "C:\\phongchongtoipham\\PhongChongToiPham\\phongchongtoipham\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

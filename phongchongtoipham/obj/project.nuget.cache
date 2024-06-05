@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yR34A0DqHOe+1WOoGAE96TwCtrR+ZTAlWNhhH2SSISe8JsmT5S09ZLbYN2wKvOWPTvbx4dt6aHW2/FueMyzY5g==",
+  "dgSpecHash": "xv2psYt7NYjm7WWcDJaMsHna50cf1Rip7RKTjI+1MTifjjQnRNzemQ9Fza+qTdqFYfBAc00VZk4mbMaF7lXjXQ==",
   "success": true,
-  "projectFilePath": "C:\\phongchongtoipham\\phongchongtoipham\\phongchongtoipham.csproj",
+  "projectFilePath": "C:\\phongchongtoipham\\PhongChongToiPham\\phongchongtoipham\\phongchongtoipham.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ASUS\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
